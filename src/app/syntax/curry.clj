@@ -1,4 +1,4 @@
-(ns let)
+(ns app.syntax.curry)
 
 (defn messenger-builder [greetings]
   (fn [who] (println greetings who)))
